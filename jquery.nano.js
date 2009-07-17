@@ -8,4 +8,7 @@
       return value
     })
   }
+  $.fn.nano = function(data){
+    return this.html($.nano(this.html(), data));
+  }
 })(jQuery)

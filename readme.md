@@ -33,6 +33,12 @@ and you get ready string:
 
 Simple huh?
 
+If you want to replace some strings in the HTML already on the page, use nano like this:
+
+<code>
+  $("#template-element").nano(data)
+</code>
+
 ***More Advanced Example***
 
 
